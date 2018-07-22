@@ -1,0 +1,6 @@
+<?
+session_start();
+echo '1 - '.$_SESSION['ddd'];
+$_SESSION['ddd']='ÇÍÀ×ÅÍÈÅ ÏÐÈÑÂÎÅÍÎ';
+echo '2 - '.$_SESSION['ddd'];
+?>
